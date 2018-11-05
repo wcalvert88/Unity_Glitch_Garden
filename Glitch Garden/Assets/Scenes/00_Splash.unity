@@ -282,12 +282,7 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1136153872325296, guid: 5588c2f187077024a9c812166ee9e927, type: 2}
-      propertyPath: m_Name
-      value: Load Sound
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114952052422021746, guid: 5588c2f187077024a9c812166ee9e927, type: 2}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5588c2f187077024a9c812166ee9e927, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &1614204509
