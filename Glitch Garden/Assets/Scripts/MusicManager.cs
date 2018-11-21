@@ -8,6 +8,8 @@ public class MusicManager : MonoBehaviour {
 	[SerializeField] public AudioClip[] levelMusicChangeArray;
 	[SerializeField] private AudioSource audioSource;
 
+	[SerializeField] private AudioClip currentlyPlaying;
+
 	void Awake() {
 		DontDestroyOnLoad(gameObject);
 		
@@ -32,11 +34,20 @@ public class MusicManager : MonoBehaviour {
 	void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
 		// Use the buildIndex of the scene to pass the level value to the array.
 		AudioClip thisLevelMusic = levelMusicChangeArray[scene.buildIndex];
-		if (!thisLevelMusic) return;
-		audioSource.clip = thisLevelMusic;
-		if (scene.buildIndex > 0)audioSource.loop = true;
-		audioSource.volume = 0.75f;
-		audioSource.Play();
+		if (scene.buildIndex > 0 && scene.buildIndex < 6) {
+			thisLevelMusic = levelMusicChangeArray[1];
+		}
 		
+		if (!thisLevelMusic) return;
+		
+		if (scene.buildIndex > 0) { audioSource.loop = true;
+		}
+		if (currentlyPlaying != thisLevelMusic) {
+			audioSource.clip = thisLevelMusic;
+			audioSource.volume = 0.75f;
+			audioSource.Play();
+		}
+		
+		currentlyPlaying = thisLevelMusic;
 	}
 }

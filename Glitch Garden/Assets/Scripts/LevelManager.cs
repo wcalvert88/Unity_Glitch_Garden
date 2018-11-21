@@ -4,10 +4,14 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 
-	[SerializeField] float endSplash = 2.5f;
+	[SerializeField] float autoLoadNextLevelAfter = 2.5f;
 
 	void Start() {
-		Invoke("LoadNextLevel", endSplash);
+		if(autoLoadNextLevelAfter <= 0) {
+			Debug.Log("Level auto load disabled");
+		} else {
+			Invoke("LoadNextLevel", autoLoadNextLevelAfter);
+		}
 	}
 	public void LoadLevel(string name) {
 		Debug.Log("New Level load: " + name);
