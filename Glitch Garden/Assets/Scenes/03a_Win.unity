@@ -252,26 +252,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114721640560750992, guid: c39dcf37652ab8e4c91f1cad394711df,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114721640560750992, guid: c39dcf37652ab8e4c91f1cad394711df,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114694458521690216, guid: c39dcf37652ab8e4c91f1cad394711df,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114694458521690216, guid: c39dcf37652ab8e4c91f1cad394711df,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114343576673258906, guid: c39dcf37652ab8e4c91f1cad394711df,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -292,10 +272,25 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114813759400698058, guid: c39dcf37652ab8e4c91f1cad394711df,
+    - target: {fileID: 114694458521690216, guid: c39dcf37652ab8e4c91f1cad394711df,
         type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: 01a_Start
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114694458521690216, guid: c39dcf37652ab8e4c91f1cad394711df,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114721640560750992, guid: c39dcf37652ab8e4c91f1cad394711df,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114721640560750992, guid: c39dcf37652ab8e4c91f1cad394711df,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c39dcf37652ab8e4c91f1cad394711df, type: 2}

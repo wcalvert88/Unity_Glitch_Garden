@@ -270,6 +270,17 @@ Prefab:
       propertyPath: m_Colors.m_HighlightedColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114395771454010594, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: ed65dde16a38c42a79b8011ae4ed0bbb,
+        type: 2}
+    - target: {fileID: 114395771454010594, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2cca87daa97acf4ab11cd33b57fb957, type: 2}
   m_IsPrefabAsset: 0

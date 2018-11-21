@@ -294,12 +294,12 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114526231361316894, guid: 719e667b3e09ce64a987b42e27992cd3,
+    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
       propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114526231361316894, guid: 719e667b3e09ce64a987b42e27992cd3,
+    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
@@ -314,26 +314,6 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114548295595363896, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -344,118 +324,25 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
+    - target: {fileID: 114526231361316894, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
-      propertyPath: m_text
-      value: ' Stop Those Animals'
+      propertyPath: m_havePropertiesChanged
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
+    - target: {fileID: 114526231361316894, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
-      propertyPath: m_textInfo.characterCount
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.spaceCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.wordCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.lineCount
+      propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
-      propertyPath: m_textInfo.pageCount
+      propertyPath: m_havePropertiesChanged
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
         type: 2}
-      propertyPath: m_firstOverflowCharacterIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224831253846799752, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -245.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 224831253846799752, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 1072
-      objectReference: {fileID: 0}
-    - target: {fileID: 114068173612370842, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textAlignment
-      value: 513
-      objectReference: {fileID: 0}
-    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_text
-      value: ' Options'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.characterCount
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.spaceCount
+      propertyPath: m_isInputParsingRequired
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114539418600114586, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.wordCount
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1281545206943300, guid: 719e667b3e09ce64a987b42e27992cd3, type: 2}
-      propertyPath: m_Name
-      value: Play Game Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 1569782020184392, guid: 719e667b3e09ce64a987b42e27992cd3, type: 2}
-      propertyPath: m_Name
-      value: Play Game Text
-      objectReference: {fileID: 0}
-    - target: {fileID: 114548295595363896, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_text
-      value: ' Play Game'
-      objectReference: {fileID: 0}
-    - target: {fileID: 114548295595363896, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.characterCount
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 114548295595363896, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.spaceCount
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114548295595363896, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.wordCount
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114548295595363896, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_textInfo.lineCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224283349884801104, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: 17.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 224283349884801104, guid: 719e667b3e09ce64a987b42e27992cd3,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 35.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 719e667b3e09ce64a987b42e27992cd3, type: 2}
