@@ -210,16 +210,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114009385073641466, guid: c2cca87daa97acf4ab11cd33b57fb957,
-        type: 2}
-      propertyPath: m_havePropertiesChanged
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114009385073641466, guid: c2cca87daa97acf4ab11cd33b57fb957,
-        type: 2}
-      propertyPath: m_isInputParsingRequired
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 114371990466094954, guid: c2cca87daa97acf4ab11cd33b57fb957,
         type: 2}
       propertyPath: m_havePropertiesChanged
@@ -239,6 +229,46 @@ Prefab:
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114009385073641466, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114009385073641466, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114976575303836670, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114976575303836670, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114976575303836670, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114395771454010594, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114395771454010594, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114395771454010594, guid: c2cca87daa97acf4ab11cd33b57fb957,
+        type: 2}
+      propertyPath: m_Colors.m_HighlightedColor.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2cca87daa97acf4ab11cd33b57fb957, type: 2}

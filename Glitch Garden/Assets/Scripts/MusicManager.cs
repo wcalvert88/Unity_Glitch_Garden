@@ -45,6 +45,10 @@ public class MusicManager : MonoBehaviour {
 		if (currentlyPlaying != thisLevelMusic) {
 			audioSource.clip = thisLevelMusic;
 			audioSource.volume = 0.75f;
+			if (thisLevelMusic.name == "level_up_kazoo") {
+				audioSource.volume = 0.3f;
+				audioSource.loop = false;
+			}
 			audioSource.Play();
 		}
 		
