@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 607b08d4d523d4ca0aef488658c68c2e
+guid: a29dff98a4871ae4fbdd5c740e933bc2
 TextureImporter:
   fileIDToRecycleName:
-    21300000: trophy top
-    21300002: trophy base
+    21300000: Trophy Top
+    21300002: Trophy Base
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -29,12 +29,12 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -62,7 +62,29 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 2
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -75,41 +97,41 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trophy top
+      name: Trophy Top
       rect:
         serializedVersion: 2
         x: 0
         y: 21
         width: 37
         height: 41
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: -0.0016761408}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 
+      spriteID: b1c453ba71a298b468114ed2d02a22be
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trophy base
+      name: Trophy Base
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 37
+        width: 38
         height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 
+      spriteID: cd0c0873f1b074e4c9fea57376db9757
       vertices: []
       indices: 
       edges: []
@@ -117,7 +139,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de005462161998f418b78bffdf508aec
     vertices: []
     indices: 
     edges: []
