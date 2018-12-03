@@ -36,10 +36,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4360848486680114}
   - component: {fileID: 95328946345616104}
-  - component: {fileID: 114257708986098366}
   - component: {fileID: 61143502451849702}
-  - component: {fileID: 114890303481994364}
   - component: {fileID: 50193797589734702}
+  - component: {fileID: 114257708986098366}
+  - component: {fileID: 114890303481994364}
   - component: {fileID: 114846439434121734}
   m_Layer: 0
   m_Name: Lizard

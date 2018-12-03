@@ -66,6 +66,8 @@
      <Compile Include="Assets\Scripts\PlayerPrefsManager.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\SetStartVolume.cs" />
+     <Compile Include="Assets\Scripts\Shooter.cs" />
+     <Compile Include="Assets\Scripts\Shredder.cs" />
      <Compile Include="Assets\Scripts\Stone.cs" />
      <None Include="Assets\Backgrounds\Attribute.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
