@@ -4,8 +4,16 @@ using UnityEngine;
 
 public class Shooter : MonoBehaviour {
 
-	[SerializeField] public GameObject projectile, projectileParent, gun;
-	
+	[SerializeField] public GameObject projectile, gun;
+	[SerializeField] private GameObject projectileParent;
+
+	void Start() {
+		projectileParent = GameObject.Find("Projectiles");
+
+		if (!projectileParent) {
+			projectileParent = new GameObject("Projectiles");
+		}
+	}
 	private void Fire() {
 		GameObject newProjectile = Instantiate(projectile) as GameObject;
 		newProjectile.transform.parent = projectileParent.transform;
