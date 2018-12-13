@@ -6,6 +6,9 @@ using UnityEngine;
 public class Attacker : MonoBehaviour {
 
 	[SerializeField] [Range (-1f, 1.5f)] private float currentSpeed;
+
+	[Tooltip ("Average number of seconds between appearances")]
+	[SerializeField] [Range (0f, 60f)] public float seenEverySeconds;
 	private GameObject currentTarget;
 	private Animator animator;
 
@@ -21,11 +24,6 @@ public class Attacker : MonoBehaviour {
 			animator.SetBool("isAttacking", false);
 		}
 	}
-
-	// void OnTriggerEnter2D()
-	// {
-	// 	Debug.Log(name + " trigger enter");
-	// }
 
 	public void SetSpeed(float speed) {
 		currentSpeed = speed;
