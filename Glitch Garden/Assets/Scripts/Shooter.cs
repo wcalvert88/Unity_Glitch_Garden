@@ -52,7 +52,7 @@ public class Shooter : MonoBehaviour {
 
 		foreach (Spawner spawner in spawnerArray)
 		{
-			if (spawner.transform.position.y == transform.position.y) {
+			if (spawner.transform.position.y == Mathf.RoundToInt(transform.position.y)) {
 				myLaneSpawner = spawner;
 				return;
 			}
