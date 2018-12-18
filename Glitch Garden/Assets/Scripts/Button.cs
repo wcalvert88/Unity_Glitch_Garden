@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Button : MonoBehaviour {
 
@@ -8,10 +9,16 @@ public class Button : MonoBehaviour {
 	[SerializeField] public static GameObject selectedDefender;
 	
 	[SerializeField] private Button[] buttonArray;
+	[SerializeField] private Text costText;
 	// Use this for initialization
 	void Start () {
 		buttonArray = GameObject.FindObjectsOfType<Button>();
 		GetComponent<SpriteRenderer>().color = Color.black;
+		costText = GetComponentInChildren<Text>();
+		if (!costText) {
+			Debug.LogWarning(name + " has no cost text");
+		}
+		costText.text = defenderPrefab.GetComponent<Defenders>().starCost.ToString();
 	}
 	
 	// Update is called once per frame
